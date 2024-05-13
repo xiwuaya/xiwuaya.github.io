@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>End</title>
     <link>https://www.kami.cyou/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on End</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 May 2024 19:10:14 +0800</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://www.kami.cyou/post/hello-world/</link>
       <pubDate>Mon, 13 May 2024 19:10:14 +0800</pubDate>
       <guid>https://www.kami.cyou/post/hello-world/</guid>
-      <description>hello world!!!</description>
+      <description>hello world!!! 第N个博客了，希望这次能产出些有价值的东西&amp;hellip;</description>
     </item>
   </channel>
 </rss>

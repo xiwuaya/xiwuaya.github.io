@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.kami.cyou/post/hello-world/</loc>
-    <lastmod>2024-05-13T19:10:14+08:00</lastmod>
-  </url><url>
     <loc>https://www.kami.cyou/</loc>
-    <lastmod>2024-05-13T19:10:14+08:00</lastmod>
+    <lastmod>2024-05-13T22:07:43+08:00</lastmod>
   </url><url>
     <loc>https://www.kami.cyou/post/</loc>
+    <lastmod>2024-05-13T22:07:43+08:00</lastmod>
+  </url><url>
+    <loc>https://www.kami.cyou/post/hello-world/</loc>
     <lastmod>2024-05-13T19:10:14+08:00</lastmod>
   </url><url>
     <loc>https://www.kami.cyou/categories/</loc>
