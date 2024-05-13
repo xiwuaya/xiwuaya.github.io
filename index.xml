@@ -6,8 +6,19 @@
     <description>Recent content on End</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 May 2024 19:10:14 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 May 2024 22:07:43 +0800</lastBuildDate>
     <atom:link href="https://www.kami.cyou/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从0开始的hugo搭建</title>
+      <link>https://www.kami.cyou/post/how-to-run-hugo/</link>
+      <pubDate>Mon, 13 May 2024 22:07:43 +0800</pubDate>
+      <guid>https://www.kami.cyou/post/how-to-run-hugo/</guid>
+      <description>施工中，准确来说应该是咕咕咕中
+目前发现好像全网没找到一篇从0开始搭建hugo，对萌新友好的新手教程
+你不会看官方文档嘛？
+所以就打算自己写一篇（
+造轮子罢了（（（</description>
+    </item>
     <item>
       <title>First</title>
       <link>https://www.kami.cyou/post/hello-world/</link>
