@@ -160,6 +160,31 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">解决linux上steam字体过小的问题-steam-hidpi设置
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>我的steam使用的是flatpak安装，理由引用
+Steam需要32位库，Arch和Gentoo开这个会导致安装一堆不必要的包。Flatpak可以避免这种问题。
+官方支持
+自 2018 年 1 月 25 日起，测试程序将实际支持 HiDPI，并会自动检测到。 Steam &gt; 设置 &gt; 界面，勾选根据显示器尺寸放大文本和图标（需要重启）
+但大多数时候并不会自动缩放文本
+这里提供一种曲线救国的方法，但不保证对所有电脑有效，并且使用起来繁琐
+具体就是，登陆steam后进入大屏幕模式，然后推出大屏幕模式，然后你可能惊喜的发现字体的大小正常了，这里面能简化的步骤估计只有，默认登陆时启动大屏幕模式，然后再推出
+另外官方还给出了其他两种解决方法：
+如果没有自动检测到，请使用 GDK_SCALE=2 设置所需的比例因子。 如果上述方法无效，请使用 steam -forcedesktopscaling 2 或设置 STEAM_FORCE_DESKTOPUI_SCALING=2.0在 2023 年 6 月的 UI 大修中，该参数还支持非整数比例因子，例如 1.25。 在flatpak中为应用设置环境变量的方法 flatpak override --user --env=GDK_SCALE=2 com.valvesoftware.Steam
+flatpak override --user --env=STEAM_FORCE_DESKTOPUI_SCALING=2 com.valvesoftware.Steam
+由于方法一在我的电脑上无效，所以我使用的是方法二，参考我在windows中的缩放设置，缩放的值设置为1.5，设置完成后重新打开steam，字体缩放显示，hidpi设置成功
+ref：
+archwiki
+[github](flatpak override –user –env=STEAM_FORCE_DESKTOPUI_SCALING=2 com.valvesoftware.Steam)</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-18 02:46:13 +0800 CST'>May 18, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 解决linux上steam字体过小的问题-steam-hidpi设置" href="https://www.kami.cyou/post/steam-hidpi/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">从0开始的hugo搭建
     </h2>
   </header>
