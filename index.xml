@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>End</title>
+    <link>https://blog.badend.cn/</link>
+    <description>Recent content on End</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 05 Oct 2024 19:28:02 +0800</lastBuildDate>
+    <atom:link href="https://blog.badend.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam启用旧版家庭共享</title>
+      <link>https://blog.badend.cn/post/steam-family-share/</link>
+      <pubDate>Sat, 05 Oct 2024 19:28:02 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/steam-family-share/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;打开需要共享的小号，打开Steam-设置-家庭页面并在此处停留&lt;/li&gt;
+&lt;li&gt;Win+R输入&lt;code&gt;steam://open/console&lt;/code&gt;打开steam控制台&lt;/li&gt;
+&lt;li&gt;在控制台输入&lt;code&gt;device_authorize_local 【description】&lt;/code&gt;后查看家庭共享页面，旧版家庭共享已经成功显示&lt;/li&gt;
+&lt;li&gt;退出Steam登录大号查看是否成功&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;PS : 此方法将于2025年初失效，请使用新版家庭组&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>解决linux上steam字体过小的问题-steam-hidpi设置</title>
+      <link>https://blog.badend.cn/post/steam-hidipi/</link>
+      <pubDate>Sat, 18 May 2024 02:46:13 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/steam-hidipi/</guid>
+      <description>&lt;p&gt;我的steam使用的是&lt;strong&gt;flatpak&lt;/strong&gt;安装，理由引用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Steam需要32位库，Arch和Gentoo开这个会导致安装一堆不必要的包。Flatpak可以避免这种问题。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.badend.cn/post/hello-world/</link>
+      <pubDate>Mon, 13 May 2024 19:10:14 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/hello-world/</guid>
+      <description>&lt;p&gt;hello world!!! 第N个博客了，希望这次能产出些有价值的东西…&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
