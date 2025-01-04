@@ -6,8 +6,20 @@
     <description>Recent content in Posts on End</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Oct 2024 19:28:02 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2025 19:58:55 +0800</lastBuildDate>
     <atom:link href="https://blog.badend.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows下在GitHub page上部署后CSS无法正常加载</title>
+      <link>https://blog.badend.cn/post/hugo-on-win/</link>
+      <pubDate>Sat, 04 Jan 2025 19:58:55 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/hugo-on-win/</guid>
+      <description>&lt;h3 id=&#34;css样式无法加载&#34;&gt;CSS样式无法加载&lt;/h3&gt;
+&lt;p&gt;git push 博客文件后，会发现样式无法正常加载&lt;/p&gt;
+&lt;p&gt;F12打开network，检查css文件正常获取，控制台报错&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;blog.badend.cn/:2 Failed to find a valid digest in the &amp;#39;integrity&amp;#39; attribute for resource &amp;#39;https://blog.badend.cn/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css&amp;#39; with computed SHA-256 integrity &amp;#39;1vzSCk+4bvpN+sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=&amp;#39;. The resource has been blocked.
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;原因分析&#34;&gt;原因分析&lt;/h3&gt;
+&lt;p&gt;windows下用hugo生成的静态文件结尾是LF，而git在提交文件时会将LF替换为CRLF，破坏了文件的完整性，因为之前的博客都是在linux环境下写的，所以没遇到这个问题&amp;hellip;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Steam启用旧版家庭共享</title>
       <link>https://blog.badend.cn/post/steam-family-share/</link>
