@@ -6,8 +6,18 @@
     <description>Recent content in Posts on End</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Jan 2025 19:58:55 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 22:18:52 +0800</lastBuildDate>
     <atom:link href="https://blog.badend.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决hashcat -m 2500报错，Hccapx格式转换为Hc22000</title>
+      <link>https://blog.badend.cn/post/hccapx-to-hc22000/</link>
+      <pubDate>Sat, 11 Jan 2025 22:18:52 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/hccapx-to-hc22000/</guid>
+      <description>&lt;p&gt;hashcat官方从 6.0.0 版本开始，不再接受2500的哈希模式，转为接受新的哈希模式 22000&lt;/p&gt;
+&lt;p&gt;如果仍旧使用-m 2500则会遇到报错&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The plugin 2500 is deprecated and was replaced with plugin 22000. For more details, please read: https://hashcat.net/forum/thread-10253.html
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;解决方法之一就是将不再受支持的hccapx格式转换为hc22000格式&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Windows下在GitHub page上部署后CSS无法正常加载</title>
       <link>https://blog.badend.cn/post/hugo-on-win/</link>
