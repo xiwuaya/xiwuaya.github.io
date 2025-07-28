@@ -6,8 +6,17 @@
     <description>Recent content on End</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Jul 2025 12:43:56 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 13:25:48 +0800</lastBuildDate>
     <atom:link href="https://blog.badend.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam提取totp密钥</title>
+      <link>https://blog.badend.cn/post/steam_shared_secret/</link>
+      <pubDate>Mon, 28 Jul 2025 13:25:48 +0800</pubDate>
+      <guid>https://blog.badend.cn/post/steam_shared_secret/</guid>
+      <description>&lt;p&gt;首先手机需要LSPosed，安装SteamGuardDump模块，作用域选Steam&lt;/p&gt;
+&lt;p&gt;模块： &lt;a href=&#34;https://github.com/YifePlayte/SteamGuardDump&#34;&gt;https://github.com/YifePlayte/SteamGuardDump&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;然后进入Steam手机端就会自动复制一段内容到剪贴板，打开文本编辑软件粘贴，找到形如&lt;code&gt;&amp;quot;uri&amp;quot;: &amp;quot;otpauth://totp/Steam:&amp;lt;account_name&amp;gt;?secret=&amp;lt;totp_secret&amp;gt; &lt;/code&gt; 的一行，如果手机上登录有多个steam账户，&lt;code&gt;&amp;lt;account_name&amp;gt;&lt;/code&gt;即为用户名，&lt;code&gt;&amp;lt;totp_secret&amp;gt;&lt;/code&gt;则为用户名所对应的账户的totp密钥，可直接复制使用&lt;/p&gt;</description>
+    </item>
     <item>
       <title>mpv添加弹弹play弹幕支持</title>
       <link>https://blog.badend.cn/post/mpv_danmuku/</link>
@@ -24,7 +33,7 @@
 &lt;p&gt;安装教程：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;将uosc_danmuku解压后移动到mpv_lazy\portable_config\scripts目录下，保证文件的结构为mpv-lazy\portable_config\scripts\uosc_danmuku&lt;/p&gt;</description>
+&lt;p&gt;将uosc_danmuku解压后移动到&lt;code&gt;mpv_lazy\portable_config\scripts&lt;/code&gt;目录下，保证文件的结构为&lt;code&gt;mpv-lazy\portable_config\scripts\uosc_danmuku&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>解决hashcat -m 2500报错，Hccapx格式转换为Hc22000</title>
